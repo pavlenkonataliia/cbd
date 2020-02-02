@@ -16,3 +16,10 @@ import './lib/foundation-explicit-pieces';
 import './lib/slick.min.js';
 
 $(document).foundation();
+
+$('.multiple-items').slick({
+	infinite: true,
+	slidesToShow: 3,
+	slidesToScroll: 3
+ });
+	 
